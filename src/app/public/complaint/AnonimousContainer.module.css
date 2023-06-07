@@ -1,0 +1,58 @@
+.anonymous_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 3rem
+}
+
+.anonymous_container .anonymous_checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 366px;
+    height: 47px;
+    background-color: var(--border-and-line-primary-color);
+    border-radius: var(--border-radius-default);
+    color: var(--font-anonimous-color);
+    font-size: 12pt;
+    transition: 0.1s all;
+}
+
+.anonymous_container .anonymous_checkbox:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.anonymous_container .anonymous_checkbox:active {
+    transform: scale(0.90);
+}
+
+.anonymous_container .anonymous_checkbox_clicked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 366px;
+    height: 47px;
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-default);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0 0 10px 2px #6A95EB;
+    transition: 0.1s all;
+}
+
+.anonymous_container .anonymous_checkbox_clicked:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.anonymous_container .anonymous_checkbox_clicked:active {
+    transform: scale(0.90);
+}
+
+.anonymous_container .anonymous_text {
+    color: var(--primary-color)
+}

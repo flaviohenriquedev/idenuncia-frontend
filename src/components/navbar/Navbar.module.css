@@ -1,0 +1,12 @@
+.navbar {
+
+}
+
+.navbar .list {
+    display: flex;
+    gap: 2rem
+}
+
+.navbar .list li a{
+    color: white;
+}

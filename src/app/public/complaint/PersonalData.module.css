@@ -1,0 +1,9 @@
+.personal_data_container {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.personal_data_container > * {
+    flex-grow: 1;
+}

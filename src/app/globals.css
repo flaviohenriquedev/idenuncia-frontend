@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary-color: #6699FF;
+    --background-color-primary: #F0F0F0;
+    --background-color-secondary: #F8F8F8;
+    --background-color-input-inactive: #F0F0F0;
+
+    --border-and-line-primary-color: #E6E6E6;
+    --border-radius-default: 6px;
+
+    --font-label-color: #4D4D4D;
+    --font-input-color: #4D4D4D;
+
+    --font-anonimous-color: #4D4D4D;
+
+    --background-button-warning: #F79327;
+    --background-button-success: #54B435;
+    --background-button-danger: #B31312;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--background-color-primary);
+}
+
+main {
+    margin-top: 6rem;
+}
+
+form,
+select,
+input{
+    border-radius: var(--border-radius-default);
+}
+
+button {
+    transition: 0.1s all;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+textarea {
+    resize: none;
+    border-radius: var(--border-radius-default);
+}
+
+.idn_label {
+    color: var(--font-label-color);
+}
+
+.idn_input {
+    color: var(--font-input-color);
+}
+
+.idn_hr {
+    margin: 2rem 0;
+    border: solid 0.5px var(--border-and-line-primary-color);
+}
+
+.idn_btn_default {
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius-default);
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+.idn_btn_warning {
+    background-color: var(--background-button-warning);
+    border-radius: var(--border-radius-default);
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+.idn_btn_success {
+    background-color: var(--background-button-success);
+    border-radius: var(--border-radius-default);
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+.idn_btn_danger {
+    background-color: var(--background-button-danger);
+    border-radius: var(--border-radius-default);
+    padding: 0.5rem 2rem;
+    color: white;
+}

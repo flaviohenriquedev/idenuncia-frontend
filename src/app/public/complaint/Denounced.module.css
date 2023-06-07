@@ -1,0 +1,9 @@
+.denounced_container {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.denounced_container > * {
+    flex-grow: 1;
+}
